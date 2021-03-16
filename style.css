@@ -1,0 +1,70 @@
+body {
+}
+
+.titulo-principal {
+    padding-left: 20px;
+}
+
+#banner {
+    width: 100%;
+}
+
+.principal{
+    background: #CCCCCC;
+    padding: 30px;
+}
+
+
+.titulo-centralizado {
+    text-align: center;
+}
+
+p {
+   text-align: center;
+}
+
+#missao {
+    font-size: 20px
+}
+
+em strong {               /*todas as tags Strongs que estão dentro de um "em"*/
+      color: #FF0000;
+}
+
+
+  /*rgb: RED, GREEN, BLUE                          -> Hexadecimal
+        #_ _   _ _    _ _
+  0: Ausência 
+   Preto(ausência de todas as cores): #00000000
+  F: Máximo
+    Branco(todas as cores):  #FFFFFFFF
+
+    RGB: 0,1,2,3...255                             -> RGB
+    0 -> Ausência
+    255 -> Máximo
+    rgb(red, green, blue)
+    rgb(255,255,255)
+    rgb(0,0,255) -> azul
+  */
+
+  .itens {
+      font-style: italic;
+  }
+
+  .beneficios {
+      background: #FFFFFF;
+      padding: 20px;
+  }
+
+
+
+  ul {
+      display: inline-block;
+      vertical-align: top;
+      width: 20%;
+      margin-right: 15%;
+  }
+
+  .imagemBeneficios {
+      width: 50%;
+  }
